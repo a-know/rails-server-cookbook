@@ -2,6 +2,7 @@ source 'https://api.berkshelf.com'
 
 cookbook 'build-essential'
 cookbook 'git'
+cookbook 'imagemagick'
 cookbook 'nginx'
 cookbook 'nodejs'
 cookbook 'ruby_build'

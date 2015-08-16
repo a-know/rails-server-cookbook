@@ -1,6 +1,7 @@
 DEPENDENCIES
   build-essential
   git
+  imagemagick
   nginx
   nodejs
   rbenv
@@ -29,6 +30,7 @@ GRAPH
     yum-epel (>= 0.0.0)
   homebrew (1.13.0)
     build-essential (>= 2.1.2)
+  imagemagick (0.2.3)
   java (1.35.0)
   nginx (2.7.6)
     apt (~> 2.2)
