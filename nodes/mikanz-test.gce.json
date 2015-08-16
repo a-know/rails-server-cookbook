@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[git]"
+  ],
+  "automatic": {
+    "ipaddress": "mikanz-test.gce"
+  }
+}

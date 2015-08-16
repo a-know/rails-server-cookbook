@@ -209,3 +209,5 @@ DEPENDENCIES
   berkshelf
   chef
   knife-solo
+  rspec
+  serverspec
