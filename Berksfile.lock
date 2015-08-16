@@ -2,6 +2,7 @@ DEPENDENCIES
   build-essential
   git
   nodejs
+  xml
 
 GRAPH
   7-zip (1.0.2)
@@ -11,6 +12,7 @@ GRAPH
     7-zip (>= 0.0.0)
     windows (>= 0.0.0)
   build-essential (2.2.3)
+  chef-sugar (3.1.1)
   chef_handler (1.2.0)
   dmg (2.2.2)
   git (4.3.3)
@@ -28,6 +30,9 @@ GRAPH
     yum-epel (>= 0.0.0)
   windows (1.38.1)
     chef_handler (>= 0.0.0)
+  xml (1.2.13)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
   yum (3.6.3)
   yum-epel (0.6.2)
     yum (~> 3.2)
