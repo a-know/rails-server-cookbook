@@ -2,7 +2,8 @@
   "run_list": [
     "recipe[build-essential]",
     "recipe[git]",
-    "recipe[nodejs]"
+    "recipe[nodejs]",
+    "recipe[xml]"
   ],
   "automatic": {
     "ipaddress": "mikanz-test.gce"
