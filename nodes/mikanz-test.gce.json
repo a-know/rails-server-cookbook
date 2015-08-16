@@ -1,8 +1,19 @@
 {
+  "rbenv": {
+    "global": "2.2.2",
+    "rubies": [ "2.2.2" ],
+    "gems": {
+      "2.2.2": [
+        { "name": "bundler" }
+      ]
+    }
+  },
   "run_list": [
     "recipe[build-essential]",
     "recipe[git]",
     "recipe[nodejs]",
+    "recipe[ruby_build]",
+    "recipe[rbenv::system]",
     "recipe[xml]"
   ],
   "automatic": {

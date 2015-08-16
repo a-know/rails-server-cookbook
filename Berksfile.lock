@@ -2,6 +2,10 @@ DEPENDENCIES
   build-essential
   git
   nodejs
+  rbenv
+    git: git://github.com/fnichol/chef-rbenv.git
+    revision: 7aa1def9147f94e24146d4a90c28291559e29352
+  ruby_build
   xml
 
 GRAPH
@@ -22,12 +26,17 @@ GRAPH
     yum-epel (>= 0.0.0)
   homebrew (1.13.0)
     build-essential (>= 2.1.2)
+  java (1.35.0)
   nodejs (2.4.0)
     apt (>= 0.0.0)
     ark (>= 0.0.0)
     build-essential (>= 0.0.0)
     homebrew (>= 0.0.0)
     yum-epel (>= 0.0.0)
+  rbenv (0.8.0)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  ruby_build (0.8.0)
   windows (1.38.1)
     chef_handler (>= 0.0.0)
   xml (1.2.13)
