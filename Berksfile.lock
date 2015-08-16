@@ -1,4 +1,5 @@
 DEPENDENCIES
+  build-essential
   git
 
 GRAPH
