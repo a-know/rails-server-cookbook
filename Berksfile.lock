@@ -4,6 +4,7 @@ DEPENDENCIES
   imagemagick
   nginx
   nodejs
+  postgresql
   rbenv
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 7aa1def9147f94e24146d4a90c28291559e29352
@@ -46,7 +47,13 @@ GRAPH
     homebrew (>= 0.0.0)
     yum-epel (>= 0.0.0)
   ohai (2.0.1)
+  openssl (4.0.0)
+    chef-sugar (>= 0.0.0)
   packagecloud (0.0.19)
+  postgresql (3.4.20)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (~> 4.0.0)
   rbenv (0.8.0)
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
