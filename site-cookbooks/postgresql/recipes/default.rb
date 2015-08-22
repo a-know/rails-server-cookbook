@@ -6,6 +6,10 @@ package "postgresql-server" do
   action :install
 end
 
+package "postgresql-devel" do
+  action :install
+end
+
 service "postgresql" do
   action [:enable]
   supports :start => true
