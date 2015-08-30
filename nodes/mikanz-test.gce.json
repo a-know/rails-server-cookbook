@@ -17,6 +17,7 @@
     "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
+    "recipe[user]",
     "recipe[xml]"
   ],
   "automatic": {
