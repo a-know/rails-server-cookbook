@@ -8,6 +8,9 @@ DEPENDENCIES
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 7aa1def9147f94e24146d4a90c28291559e29352
   ruby_build
+  simple_iptables
+    git: git://github.com/dcrosta/cookbook-simple-iptables.git
+    revision: 6bf29e280a67d58db7388219bc36f6fa3ff571f5
   xml
 
 GRAPH
@@ -54,6 +57,7 @@ GRAPH
   ruby_build (0.8.0)
   runit (1.7.2)
     packagecloud (>= 0.0.0)
+  simple_iptables (0.7.2)
   windows (1.38.1)
     chef_handler (>= 0.0.0)
   xml (1.2.13)

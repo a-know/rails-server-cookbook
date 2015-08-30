@@ -12,12 +12,12 @@
     "recipe[build-essential]",
     "recipe[git]",
     "recipe[imagemagick]",
+    "recipe[iptables]",
     "recipe[nginx]",
     "recipe[nodejs]",
     "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
-    "recipe[user]",
     "recipe[xml]"
   ],
   "automatic": {
