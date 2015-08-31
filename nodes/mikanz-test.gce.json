@@ -15,6 +15,7 @@
     "recipe[iptables::disable]",
     "recipe[nginx]",
     "recipe[nodejs]",
+    "recipe[openssh]",
     "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
@@ -23,5 +24,13 @@
   ],
   "automatic": {
     "ipaddress": "mikanz-test.gce"
+  },
+  "openssh": {
+    "server": {
+      "permit_root_login":"no",
+      "password_authentication":"no",
+      "permit_empty_passwords":"no",
+      "challenge_response_authentication":"no"
+    }
   }
 }
