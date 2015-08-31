@@ -13,7 +13,7 @@
     "recipe[git]",
     "recipe[imagemagick]",
     "recipe[iptables::disable]",
-    "recipe[nginx]",
+    "recipe[nginx_settings]",
     "recipe[nodejs]",
     "recipe[openssh]",
     "recipe[postgresql]",
@@ -32,5 +32,9 @@
       "permit_empty_passwords":"no",
       "challenge_response_authentication":"no"
     }
+  },
+  "nginx_settings": {
+    "server_name": "mikanz-test-gce",
+    "application_name": "mikanz-test"
   }
 }
