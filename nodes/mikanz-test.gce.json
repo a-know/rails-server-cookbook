@@ -17,7 +17,7 @@
     "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
-    "recipe[sudoers]",
+    "recipe[ufw]",
     "recipe[xml]"
   ],
   "automatic": {
