@@ -12,6 +12,7 @@
     "recipe[build-essential]",
     "recipe[git]",
     "recipe[imagemagick]",
+    "recipe[iptables::disable]",
     "recipe[nginx]",
     "recipe[nodejs]",
     "recipe[postgresql]",
