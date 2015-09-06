@@ -16,7 +16,6 @@
     "recipe[nginx_settings]",
     "recipe[nodejs]",
     "recipe[openssh]",
-    "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
     "recipe[ufw]",
