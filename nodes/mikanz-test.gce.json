@@ -20,6 +20,7 @@
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
     "recipe[ufw]",
+    "recipe[wget]",
     "recipe[xml]"
   ],
   "automatic": {
@@ -36,5 +37,10 @@
   "nginx_settings": {
     "server_name": "mikanz-test-gce",
     "application_name": "mikanz-test"
+  },
+  "postgresql": {
+    "user": "mikan",
+    "password": "p@ssw0rd",
+    "database_name": "mikan_iaas"
   }
 }
