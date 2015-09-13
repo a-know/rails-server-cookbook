@@ -5,7 +5,10 @@ upstream rails-unicorn {
 
 server {
   listen   80;
-  server_name 104.155.209.3;
+  server_name <%= node.nginx_settings.server_name %>;
+
+  access_log  /var/log/nginx/<%= node.nginx_settings.application_name %>.access.log;
+  error_log  /var/log/nginx/<%= node.nginx_settings.application_name %>.error.log;
 
   root /var/www/<%= node.nginx_settings.application_name %>/current/public;
 
