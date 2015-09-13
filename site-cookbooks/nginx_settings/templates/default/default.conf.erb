@@ -16,7 +16,7 @@ server {
       try_files $uri $uri.html $uri/index.html @rails-unicorn;
   }
   location ~ ^/assets/(.*) {
-      alias /var/www/<%= node.nginx_settings.application_name %>/public/assets/$1;
+      alias /var/www/<%= node.nginx_settings.application_name %>/shared/public/assets/$1;
   }
 
   location @rails-unicorn {
