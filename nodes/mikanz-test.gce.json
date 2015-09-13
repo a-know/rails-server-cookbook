@@ -19,6 +19,7 @@
     "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
+    "recipe[selinux-policies::unicorn]",
     "recipe[ufw]",
     "recipe[wget]",
     "recipe[xml]"
