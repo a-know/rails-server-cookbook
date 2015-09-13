@@ -19,6 +19,7 @@
     "recipe[postgresql]",
     "recipe[ruby_build]",
     "recipe[rbenv::system]",
+    "recipe[selinux-policies::unicorn]",
     "recipe[ufw]",
     "recipe[wget]",
     "recipe[xml]"
@@ -35,7 +36,7 @@
     }
   },
   "nginx_settings": {
-    "server_name": "mikanz-test-gce",
+    "server_name": "107.167.177.204",
     "application_name": "mikanz-test"
   },
   "postgresql": {
